@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>~ MANGUEZAL ~ Startups Community Jobs Board. Recife/PE - Brazil ~</title>
+
+		<link rel="shortcut icon" type="image/x-icon" href="http://manguez.al/files/favicon.ico">
+		<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+		<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+		<%= csrf_meta_tags %>
+
+
+		<script type="text/javascript">
+			function colorize() {
+		    	var $active = $('#slideshow IMG.active');
+		    	if ($active.length == 0) $active = $('#slideshow IMG:last');
+
+		    	var $next = $active.next().length ? $active.next() : $('#slideshow IMG:first');
+		    	$active.addClass('last-active');
+		    	$next.css({opacity: 0.0})
+		        	.addClass('active')
+		        	.animate({opacity: 1.0}, 1500, function() {
+						$active.removeClass('active last-active');
+		        });
+			}
+
+			$(function() {
+		    	setInterval("colorize()", 5000);
+			});
+		</script>
+	</head>
+
+	<body>
+
+		<!-- Google Tag Manager -->
+		<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-N9HRCX"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-N9HRCX');</script>
+		<!-- End Google Tag Manager -->
+	
+    	<header id="header">
+			<p style="text-align: center; margin-top: -23px;">
+				<%= image_tag "logo.png", height: "150px" %>
+			</p>
+			<nav>
+				<ul>
+					<li><a href="#">Jobs</a></li>
+					<li><a href="#">Login</a></li>
+				</ul>			
+			</nav>
+		</header>
+		<%= yield %>
+		<footer>
+			<div id="footer-content">
+	       		<div id="address">STOP TALKING. START MAKING.</div>
+				<!--
+	            <div id="contacts"><a id="mail" href="mailto:us@manguez.al">us@manguez.al</a> +55 (81) 8184-1128</div>
+				-->
+	            <div id="contacts"><a id="mail" href="javascript:">MANGUEZ.AL</a>- Recife/PE - BRAZIL</div>
+	        </div>
+		</footer>
+	</body>
+</html>

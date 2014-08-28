@@ -1,0 +1,468 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"resource",
+				"resources"
+			],
+			[
+				"user",
+				"user"
+			],
+			[
+				"user_s",
+				"user_signed_in"
+			],
+			[
+				"sa",
+				"say_bye"
+			],
+			[
+				"say",
+				"say_hi"
+			],
+			[
+				"els",
+				"else"
+			],
+			[
+				"nam",
+				"names"
+			],
+			[
+				"border-ra",
+				"border-radius"
+			],
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"au",
+				"auto"
+			],
+			[
+				"he",
+				"height"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/controllers/companies_controller.rb",
+			"settings":
+			{
+				"buffer_size": 473,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/company.rb",
+			"settings":
+			{
+				"buffer_size": 376,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/companies/show.html.erb",
+			"settings":
+			{
+				"buffer_size": 183,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/companies/_form.html.erb",
+			"settings":
+			{
+				"buffer_size": 461,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 147.0,
+		"selected_items":
+		[
+			[
+				"Instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 268.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/augustovilarim/pixelchodelic/Dev/ror/jobsboard/app/views/home/index.html.erb",
+		"/Users/augustovilarim/pixelchodelic/Dev/ror/jobsboard/app/views/layouts/application.html.erb",
+		"/Users/augustovilarim/pixelchodelic/Dev/ror/jobsboard/app/assets/stylesheets/stylesheet.css",
+		"/Users/augustovilarim/pixelchodelic/Dev/ror/jobsboard/app/views/companies/new.html.erb",
+		"/Users/augustovilarim/pixelchodelic/Dev/ror/jobsboard/Gemfile",
+		"/Users/augustovilarim/pixelchodelic/Dev/ror/jobsboard/app/controllers/home_controller.rb",
+		"/Users/augustovilarim/pixelchodelic/Dev/ror/jobsboard/app/controllers/companies_controller.rb",
+		"/Users/augustovilarim/pixelchodelic/Dev/ror/jobsboard/app/models/company.rb",
+		"/Users/augustovilarim/pixelchodelic/Dev/ror/jobsboard/config/routes.rb",
+		"/Users/augustovilarim/pixelchodelic/Dev/ror/jobsboard/app/views/layouts/companies/new.html.erb",
+		"/Users/augustovilarim/pixelchodelic/Dev/ror/jobsboard/db/migrate/20140819175446_create_companies.rb",
+		"/Users/augustovilarim/pixelchodelic/Dev/ror/jobsboard/db/migrate/20140819144022_create_companies.rb",
+		"/Users/augustovilarim/Desktop/colchonet/colchonet/app/controllers/rooms_controller.rb",
+		"/Users/augustovilarim/Desktop/colchonet/colchonet/app/controllers/users_controller.rb",
+		"/Users/augustovilarim/Desktop/colchonet/colchonet/app/controllers/user_sessions_controller.rb",
+		"/Users/augustovilarim/Desktop/colchonet/colchonet/app/views/layouts/application.html.erb",
+		"/Users/augustovilarim/Desktop/colchonet/colchonet/app/views/layouts/_user_navbar.html.erb",
+		"/Users/augustovilarim/Desktop/colchonet/colchonet/app/views/layouts/_visitor_navbar.html.erb",
+		"/Users/augustovilarim/Desktop/colchonet/colchonet/app/models/user_session.rb",
+		"/Users/augustovilarim/Desktop/colchonet/colchonet/app/controllers/application_controller.rb",
+		"/Users/augustovilarim/Desktop/colchonet/colchonet/app/models/user.rb",
+		"/Users/augustovilarim/Desktop/colchonet/colchonet/app/views/home/index.html.erb",
+		"/Users/augustovilarim/Desktop/colchonet/colchonet/app/views/user_sessions/new.html.erb",
+		"/Users/augustovilarim/Desktop/colchonet/colchonet/app/controllers/user_sesssions_controller.rb",
+		"/Users/augustovilarim/Desktop/colchonet/colchonet/config/routes.rb",
+		"/Users/augustovilarim/Desktop/colchonet/colchonet/app/controllers/home_controller.rb",
+		"/Users/augustovilarim/Desktop/colchonet/colchonet/app/views/users/new.html.erb",
+		"/Users/augustovilarim/Desktop/colchonet/colchonet/app/views/users/edit.html.erb",
+		"/Users/augustovilarim/Desktop/colchonet/colchonet/app/views/users/show.html.erb",
+		"/Users/augustovilarim/Desktop/colchonet/colchonet/lib/tasks/migrar_senhas.rake",
+		"/Users/augustovilarim/Desktop/colchonet/colchonet/db/migrate/20140814183233_remove_password_from_users.rb",
+		"/Users/augustovilarim/Desktop/colchonet/colchonet/Gemfile",
+		"/Users/augustovilarim/Desktop/colchonet/colchonet/db/migrate/20140813191653_create_users.rb",
+		"/Users/augustovilarim/Desktop/colchonet/colchonet/app/views/users/_form.html.erb",
+		"/Users/augustovilarim/Desktop/colchonet/colchonet/config/initializers/filter_parameter_logging.rb",
+		"/Users/augustovilarim/Desktop/colchonet/colchonet/config/application.rb",
+		"/Users/augustovilarim/Library/Application Support/Sublime Text 3/Packages/User/Ruby.sublime-settings",
+		"/Users/augustovilarim/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/augustovilarim/Desktop/EstudoRuby/ri20min.rb",
+		"/Users/augustovilarim/pixelchodelic/deals/app/controllers/home_controller.rb",
+		"/Users/augustovilarim/pixelchodelic/deals/app/views/home/_carousel.html.erb",
+		"/Users/augustovilarim/pixelchodelic/deals/README.md",
+		"/Users/augustovilarim/pixelchodelic/deals/Rakefile",
+		"/Users/augustovilarim/consultorionanuvem/CNN/cssSistema/tabvertical.css",
+		"/Users/augustovilarim/consultorionanuvem/CNN/cssSistema/fullcalendar.css",
+		"/Users/augustovilarim/consultorionanuvem/CNN/cssSistema/system.css",
+		"/Applications/MAMP/htdocs/CNN/home/css/login.css",
+		"/Applications/MAMP/htdocs/CNN/home/index.html",
+		"/Applications/MAMP/htdocs/CNN/home/login.html",
+		"/Applications/MAMP/htdocs/CNN/home/singin.html",
+		"/Applications/MAMP/htdocs/CNN/home/css/singin.css",
+		"/Users/augustovilarim/consultorionanuvem/CNN/home/css/style.css",
+		"/Users/augustovilarim/pixelchodelic/Dev/workspace/pesquisaTablet/res/values/strings.xml",
+		"/Users/augustovilarim/pixelchodelic/Dev/workspace/pesquisaTablet/res/layout/pesquisa_imovel2.xml",
+		"/Users/augustovilarim/pixelchodelic/Dev/workspace/pesquisaTablet/sql_dumb.sql",
+		"/Users/augustovilarim/pixelchodelic/Dev/workspace/pesquisaTablet/res/layout/pesquisa_imovel.xml",
+		"/Users/augustovilarim/pixelchodelic/Dev/workspace/pesquisaTablet/res/layout/info_conjuge_proprietario.xml",
+		"/Users/augustovilarim/pixelchodelic/Dev/workspace/pesquisaTablet/res/layout/info_conjuge_ocupante.xml",
+		"/Users/augustovilarim/pixelchodelic/Dev/workspace/pesquisaTablet/res/layout/info_ocupante.xml",
+		"/Users/augustovilarim/pixelchodelic/Dev/workspace/pesquisaTablet/res/layout/info_proprietario.xml",
+		"/Users/augustovilarim/pixelchodelic/Dev/workspace/pesquisaTablet/src/com/acvp/pesquisatablet/Imovel1Activity.java",
+		"/Users/augustovilarim/pixelchodelic/Projects/Mobile/Pesquisa/PesquisaMobile/2013717122510631/conjugesOcupantes.sql",
+		"/Users/augustovilarim/pixelchodelic/Projects/Mobile/Pesquisa/PesquisaMobile/2013717122510631/conjugesProprietarios.sql",
+		"/Users/augustovilarim/pixelchodelic/Projects/Mobile/Pesquisa/PesquisaMobile/2013717122510631/membros.sql",
+		"/Users/augustovilarim/pixelchodelic/Projects/Mobile/Pesquisa/PesquisaMobile/2013717122510631/ocupantes.sql",
+		"/Users/augustovilarim/pixelchodelic/Projects/Mobile/Pesquisa/PesquisaMobile/2013717122510631/proprietarios.sql",
+		"/Users/augustovilarim/pixelchodelic/Projects/Mobile/Pesquisa/PesquisaMobile/2013717122510631/terrenos.sql",
+		"/Users/augustovilarim/pixelchodelic/Projects/Mobile/Pesquisa/PesquisaMobile/2013717122510631/logradouros.sql",
+		"/Users/augustovilarim/pixelchodelic/Projects/Mobile/Pesquisa/PesquisaMobile/2013717122510631/imoveis.sql",
+		"/Users/augustovilarim/pixelchodelic/Projects/Mobile/Pesquisa/PesquisaMobile/2013717122510631/detalhes.sql",
+		"/Users/augustovilarim/pixelchodelic/Projects/Mobile/Pesquisa/PesquisaMobile/2013717111756312/membros.sql",
+		"/Users/augustovilarim/pixelchodelic/Projects/Mobile/Pesquisa/PesquisaMobile/2013717111756312/conjugesProprietarios.sql",
+		"/Users/augustovilarim/pixelchodelic/Projects/Mobile/Pesquisa/PesquisaMobile/2013717111756312/conjugesOcupantes.sql",
+		"/Users/augustovilarim/pixelchodelic/Projects/Mobile/Pesquisa/PesquisaMobile/2013717111756312/ocupantes.sql",
+		"/Users/augustovilarim/pixelchodelic/Projects/Mobile/Pesquisa/PesquisaMobile/2013717111756312/terrenos.sql",
+		"/Users/augustovilarim/pixelchodelic/Projects/Mobile/Pesquisa/PesquisaMobile/2013717111756312/logradouros.sql",
+		"/Users/augustovilarim/pixelchodelic/Projects/Mobile/Pesquisa/PesquisaMobile/2013717111756312/detalhes.sql",
+		"/Users/augustovilarim/pixelchodelic/Projects/Mobile/Pesquisa/PesquisaMobile/2013717111756312/imoveis.sql",
+		"/Users/augustovilarim/pixelchodelic/Projects/Mobile/Pesquisa/PesquisaMobile/2013717111756312/proprietarios.sql",
+		"/Users/augustovilarim/pixelchodelic/Projects/Mobile/Pesquisa/PesquisaMobile/201371710514962/terrenos.csv",
+		"/Users/augustovilarim/pixelchodelic/Projects/Mobile/Pesquisa/PesquisaMobile/201371710514962/proprietarios.csv",
+		"/Users/augustovilarim/pixelchodelic/Projects/Mobile/Pesquisa/PesquisaMobile/201371710514962/imoveis.csv",
+		"/Users/augustovilarim/pixelchodelic/Projects/Mobile/Pesquisa/PesquisaMobile/201371710514962/detalhes.csv",
+		"/Users/augustovilarim/pixelchodelic/Projects/Mobile/Pesquisa/PesquisaMobile/201371710514962/conjugesProprietarios.csv",
+		"/Users/augustovilarim/pixelchodelic/Projects/Mobile/Pesquisa/PesquisaMobile/201371710514962/conjugesOcupantes.csv",
+		"/Users/augustovilarim/pixelchodelic/Projects/Mobile/Pesquisa/PesquisaMobile/201371710514962/logradouros.csv",
+		"/Users/augustovilarim/pixelchodelic/Projects/Mobile/Pesquisa/PesquisaMobile/201371710514962/membros.csv",
+		"/Users/augustovilarim/pixelchodelic/Projects/Mobile/Pesquisa/PesquisaMobile/201371710514962/ocupantes.csv"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\n	",
+			"fc-corner-left",
+			"fc-corner-left ",
+			"rich-tabpanel-content-position",
+			"fc-button-innet",
+			"renda"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/controllers/companies_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 473,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								198,
+								198
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/models/company.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 376,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								242,
+								242
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/companies/show.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 183,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								165,
+								165
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/views/companies/_form.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 461,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								306,
+								314
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "jobsboard.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"hpome",
+				"app/helpers/home_helper.rb"
+			],
+			[
+				"_mar",
+				"app/views/home/_marketing.html.erb"
+			],
+			[
+				"remotin",
+				"app/models/remote_inventory.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 250.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,9 @@
+
+<p id="notice"><%= notice %> </p>
+
+<h2>Perfil: <%= @company.name %> </h2>
+<ul>
+	<li>Url: <%= @company.url %> </li> 
+</ul>
+
+<%= link_to 'Editar Perfil', edit_company_path(@company) %>
